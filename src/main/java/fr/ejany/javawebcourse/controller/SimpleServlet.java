@@ -18,6 +18,6 @@ public class SimpleServlet extends HttpServlet {
 
         // Actual logic goes here
         PrintWriter out = resp.getWriter();
-        out.println("<h1>" + TEST_MESSAGE + "/h1");
+        out.println("<h1>" + TEST_MESSAGE + "</h1>");
     }
 }
