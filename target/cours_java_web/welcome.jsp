@@ -4,7 +4,7 @@
         <title>Welcome</title>
     </head>
     <body>
-        <h2>Bonjour Bernard</h2>
+        <h2>Bonjour <%=getServletContext().getAttribute("name")%></h2>
 
         <p>Nous sommes contents de te revoir, tu nous manquais</p>
     </body>
